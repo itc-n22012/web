@@ -1,0 +1,26 @@
+.my-bg-color1 {
+    background-color: rgb(101, 212, 255)!important;
+}
+.my-bg-color2 {
+    background-color: red!important;
+}
+.my-txt-color1 {
+    color: #f4e361!important;
+}
+.my-txt-color2 {
+    color: #fd703d!important;
+}
+.my-txt-color3 {
+    color: #e71414!important;
+}
+h1 {
+    color: rgb(101, 34, 12);
+}
+.example4{
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783,#e60000) 0 / 200%;
+    height: 80px;
+    animation: 5s example4 linear infinite;
+}
+@keyframes example4{
+    100% { background-position: 200%; }
+}
